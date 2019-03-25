@@ -51,7 +51,7 @@ foreach($VM in $VMs)
     
     Send-MailMessage -from "Zoe Mackay <test.zoemackay@incrementalgroup.com>" `
                        -to "Zoe Mackay <zoe.mackay@incrementalgroup.com>" `
-                       -subject "Sending the Attachment" `
+                       -subject "Schedule Maintenance Alert" `
                        -body $body `
                        -Credential $creds `
                        -Port 587 `
